@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 4px rgb(206, 200, 200);
+    padding: 10px 20px;
+}
+
+.menu-items{
+    display: flex;
+    gap: 20px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.furnish h3 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: gray;
+}
+
+    nav {
+    display: flex;
+    gap: 25px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.phone {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.bar-menu {
+    font-size: 18px;
+    color: black;
+}
+.container{
+    
+    padding: 40px 20px;
+     align-items: center;
+      display: flex;
+    flex-direction: column;
+    font-size: 40px;
+
+h4 {
+    font-size: 70px;
+}
+
+}
+img{
+width: auto;
+height: 500px;
+}
+
+.sale {
+    color: #c77b30;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.hero h1 {
+    font-size: 48px;
+    font-weight: 500;
+    color: #222;
+    margin-bottom: 30px;
+}
+
+.sofa-img img {
+    width: 400px;
+    max-width: 90%;
+    margin-bottom: 30px;
+}
+
+.desc {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #333;
+}
+
