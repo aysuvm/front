@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    max-width: 80%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #c77b30;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 4px rgb(206, 200, 200);
+    padding: 10px 20px;
+}
+
+.menu-items{
+    display: flex;
+    gap: 20px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.furnish h3 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: gray;
+}
+
+    nav {
+    display: flex;
+    gap: 25px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.phone {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.bar-menu {
+    font-size: 18px;
+    color: black;
+}
+.sell{
+    
+    padding: 40px 20px;
+     align-items: center;
+      display: flex;
+    flex-direction: column;
+    font-size: 40px;
+}
+h4 {
+    font-size: 70px;
+}
+
+
+img{
+width: auto;
+height: 500px;
+}
+
+.sale {
+  
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.hero h1 {
+    font-size: 48px;
+    font-weight: 500;
+    color: #222;
+    margin-bottom: 30px;
+}
+
+.sofa-img img {
+    width: 400px;
+    max-width: 90%;
+    margin-bottom: 30px;
+}
+
+.desc {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+
+.main {
+    max-width: 500px;
+    margin-bottom: 40px;
+    /* padding: 30px; */
+}
+
+.card-txt h1 {
+    font-size: 40px;
+    /* margin-bottom: 15px; */
+    font-weight: 500;
+    padding: 40px;
+}
+
+.card-txt p {
+    font-size: 20px;
+    color: #666;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cards {
+    display: flex;
+    gap: 5px;
+    /* justify-content: space-between; */
+    background-color: #333;
+   
+}
+
+.card {
+    
+    /* padding: 40px; */
+    text-align: center;
+    /* flex: 1; */
+    
+}
+
+.card img {
+    width: 480px;
+    margin-bottom: 20px;
+}
+
+.card-txt span {
+    color: #888;
+    margin-right: 8px;
+}
+
+.card:hover {
+  
+    background: #ddd;
+}
